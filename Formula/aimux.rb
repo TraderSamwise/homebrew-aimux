@@ -1,28 +1,28 @@
 class Aimux < Formula
   desc "Native CLI agent multiplexer — run AI coding tools with their native TUIs intact"
   homepage "https://github.com/TraderSamwise/aimux"
-  version "0.1.27"
+  version "0.1.28"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.27/aimux-darwin-arm64.tar.gz"
-      sha256 "31d347b0536f6ca1f942b7884fbee8ff3c6030bb329c3e2c4adc807b19a9081f"
+      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.28/aimux-darwin-arm64.tar.gz"
+      sha256 "04ece25a89a864815a540630bef354499326eda4c568b5d3fd60dfe45a45abff"
     end
     on_intel do
-      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.27/aimux-darwin-x64.tar.gz"
-      sha256 "679076c32245ce3bf41bf26d1721c874b21308b0800e120c6a88f95d1dbc0a1d"
+      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.28/aimux-darwin-x64.tar.gz"
+      sha256 "7da129a691a5e73e685322cb4314643b3f365f8f95c2736fe7e7e48a290f4156"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.27/aimux-linux-arm64.tar.gz"
-      sha256 "76001ed3a4f585fe4f04e3139c0569cb2ab22a79ba36a1f974959d3ac13f6d0e"
+      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.28/aimux-linux-arm64.tar.gz"
+      sha256 "b6d437068082be03d6047f93e33466330be67cda7af066941d8959160d61239a"
     end
     on_intel do
-      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.27/aimux-linux-x64.tar.gz"
-      sha256 "cf4713d256b7ee2ac758d53f1715b5ae1199525df4526856c2ca11e602ed1467"
+      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.28/aimux-linux-x64.tar.gz"
+      sha256 "a6d27a97bdc4589dd708512cdd935231c8f3c8bf52afacd213380348945c6ced"
     end
   end
 
