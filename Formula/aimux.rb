@@ -30,7 +30,7 @@ class Aimux < Formula
 
   def install
     libexec.install Dir["*"]
-    bin.install_symlink libexec/"bin/aimux"
+    (bin/"aimux").write_env_script libexec/"bin/aimux", {}
   end
 
   test do
