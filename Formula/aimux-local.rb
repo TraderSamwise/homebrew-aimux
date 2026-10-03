@@ -1,29 +1,29 @@
 class AimuxLocal < Formula
   desc "Local agent multiplexer for AI coding tools without remote control"
   homepage "https://aimux.app"
-  version "0.1.63"
+  version "0.1.64"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.63"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "826a06be347a009cd068c8a21363afa91921285a627cea5cab6838764dde3ca8"
+    root_url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.64"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "77e45c125b35b07bc4ff315d37e7aeb5104a3960b8c40a511a76609118432d81"
   end
 
   on_macos do
     on_arm do
-      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.63/aimux-local-darwin-arm64.tar.gz"
-      sha256 "c46adf2948b75f8915ec63cbc85781635da65ed81a9b1da19a96825ea85194ae"
+      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.64/aimux-local-darwin-arm64.tar.gz"
+      sha256 "4b7066052d0982a95c25a63943214782635f814c2525b0c27b9189aecf14e027"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.63/aimux-local-linux-arm64.tar.gz"
-      sha256 "7ceff8b2c2e23da5cab3509b855a6805c1130b1ac1b3c03ce21c52d3b5c5c4d8"
+      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.64/aimux-local-linux-arm64.tar.gz"
+      sha256 "7602917ec4d8805048db31378edfc84d6e4528cf47642b9bea63ee73ef1ac7f8"
     end
     on_intel do
-      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.63/aimux-local-linux-x64.tar.gz"
-      sha256 "280d8aacde2b8248ced1ad026802628dfc9e59d18791738caef20af6a98d3261"
+      url "https://github.com/TraderSamwise/aimux/releases/download/v0.1.64/aimux-local-linux-x64.tar.gz"
+      sha256 "ec8e567d73f06e777f1197cc17850691acdb287503a469f5e92be7927663dad7"
     end
   end
 
